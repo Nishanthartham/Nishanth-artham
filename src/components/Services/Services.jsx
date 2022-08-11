@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './Nishanth.pdf';
 
 const Services = () => {
   // context
@@ -24,8 +24,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Internship</span>
+        <span>Experiences</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
@@ -46,8 +46,9 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            company={"Interviews Master"}
+            heading={"Design Intern"}
+            detail={"Feb 2022 - Mar 2022"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +59,9 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            company={"Zummit Infolabs"}
+            heading={"WEB DEVELOPER INTERN"}
+            detail={"Oct 2021 - Jan 2022"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +72,10 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            company={"iHub-Data, IIIT Hyderabad"}
+            heading={"Research Intern"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "May 2022 - July 2022"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
