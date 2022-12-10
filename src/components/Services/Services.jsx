@@ -26,11 +26,11 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Internship</span>
         <span>Experiences</span>
-        <spane>
+        {/* <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
-        </spane>
+        </spane> */}
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>

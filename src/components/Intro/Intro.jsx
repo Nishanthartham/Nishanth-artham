@@ -9,7 +9,7 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+// import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -39,9 +39,8 @@ CBIT, Hyderabad. I am passionate about gaining knowledge on new skills and explo
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+         <a href="https://github.com/Nishanthartham"> <img src={Github} alt="" /></a>
+         <a href="https://www.linkedin.com/in/nishanth-artham-1a572b212/"> <img src={LinkedIn} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
@@ -75,7 +74,7 @@ CBIT, Hyderabad. I am passionate about gaining knowledge on new skills and explo
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Web" text2="Designer" />
+          <FloatinDiv img={thumbup} text1="ML" text2="Engineer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
